@@ -1,4 +1,4 @@
-ShopInCart Website Project
+ShopInCart Website Project by Marlon R
 
 Description
 
