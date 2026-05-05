@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Selector 1 */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Selector 2 */
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Selector 3 (Flexbox requirement) */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Selector 4 */
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Selector 5 */
+img {
+    width: 150px;
+}
+
+/* Animation 1 */
+.card {
+    animation: slideUp 1s;
+}
+
+@keyframes slideUp {
+    from {transform: translateY(50px);}
+    to {transform: translateY(0);}
+}
+
+/* Animation 2 */
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
