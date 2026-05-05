@@ -33,3 +33,6 @@ CSS Requirements
 7. Includes two CSS animations:
 8. A fade/slide animation on product cards
 9. A hover scaling effect on buttons
+
+
+github account: https://github.com/Noctis-arch
